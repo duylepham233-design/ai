@@ -130,7 +130,7 @@ Sub DeepSeekV3()
     Dim inputResult As ModelSelection
     Dim modelType As String
     ' API Key
-    api_key = "您的API密钥"
+    api_key = "sk-7d8e095a2cb2446a904817e32f22704c"
     If api_key = "" Then
         MsgBox "请输入API密钥。", vbExclamation
         Exit Sub
